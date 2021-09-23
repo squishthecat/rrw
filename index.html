@@ -9,7 +9,8 @@
       body,html {height:100%}
       #map {width:100%;height:100%;}
     </style>
-    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8f1e45d798a40944d8df6a6902d411c6"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8f1e45d798a40944d8df6a6902d411c6&libraries=services,clusterer,drawing"></script>
+    <script>
       var map; 
       function initGeolocation() {
         if (navigator && navigator.geolocation) {
